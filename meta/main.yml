@@ -1,0 +1,17 @@
+galaxy_info:
+  role_name: postgresql-server
+  author: Manuel Holtgrewe
+  description: Install, configure, and tune PostgreSQL Server.
+  company: Core Unit Bioinformatics, Berlin Institute of Health
+  license: MIT
+  min_ansible_version: 2.7
+
+  platforms:
+    - name: EL
+      versions:
+        - 7
+
+  galaxy_tags:
+    - system
+
+dependencies: []
